@@ -13,8 +13,12 @@ public class Word {
     @ColumnInfo(name = "word")
     private String mWord;
 
-    public Word(String word) {this.mWord = word;}
+    public Word(String word) {
+        this.mWord = word;
+    }
 
-    public String getWord(){return this.mWord;}
+    public String getWord() {
+        return this.mWord;
+    }
 }
 

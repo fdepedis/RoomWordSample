@@ -8,8 +8,10 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "word_table")
 public class Word {
 
-    @PrimaryKey
     @NonNull
+    @PrimaryKey(autoGenerate = true)
+    private int id;
+
     @ColumnInfo(name = "word")
     private String mWord;
 

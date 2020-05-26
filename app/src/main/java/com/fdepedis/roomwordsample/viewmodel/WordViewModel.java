@@ -1,8 +1,12 @@
-package com.fdepedis.roomwordsample;
+package com.fdepedis.roomwordsample.viewmodel;
 
 import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.fdepedis.roomwordsample.model.Word;
+import com.fdepedis.roomwordsample.data.WordRepository;
+
 import java.util.List;
 
 public class WordViewModel extends AndroidViewModel {

@@ -1,4 +1,4 @@
-package com.fdepedis.roomwordsample;
+package com.fdepedis.roomwordsample.model;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;

@@ -1,10 +1,12 @@
-package com.fdepedis.roomwordsample;
+package com.fdepedis.roomwordsample.data;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
+
+import com.fdepedis.roomwordsample.model.Word;
 
 import java.util.List;
 

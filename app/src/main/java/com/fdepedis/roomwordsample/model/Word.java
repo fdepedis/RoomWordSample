@@ -15,12 +15,17 @@ public class Word {
     @ColumnInfo(name = "word")
     private String mWord;
 
-    public Word(String word) {
+    public Word(int id, String word) {
+        this.id = id;
         this.mWord = word;
     }
 
     public String getWord() {
         return this.mWord;
+    }
+
+    public int getId() {
+        return this.id;
     }
 }
 

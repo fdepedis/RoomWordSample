@@ -23,4 +23,7 @@ public interface WordDao {
 
     @Query("SELECT * FROM word_table ORDER BY word ASC")
     LiveData<List<Word>> getAlphabetizedWords();
+
+    @Query("SELECT MAX(ID) FROM word_table")
+    int selectMaxID();
 }

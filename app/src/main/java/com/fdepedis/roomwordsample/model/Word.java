@@ -10,6 +10,7 @@ public class Word {
 
     @NonNull
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "id")
     private int id;
 
     @ColumnInfo(name = "word")

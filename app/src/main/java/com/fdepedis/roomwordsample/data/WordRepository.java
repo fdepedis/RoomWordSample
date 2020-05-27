@@ -39,4 +39,9 @@ public class WordRepository {
             mWordDao.deleteAll();
         });
     }
+
+    // Retrieve max id
+    public int selectMaxID(){
+        return mWordDao.selectMaxID();
+    }
 }

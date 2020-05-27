@@ -28,7 +28,8 @@ public class NewWordActivity extends AppCompatActivity {
                 Intent replyIntent = new Intent();
                 if (TextUtils.isEmpty(mEditWordView.getText())) {
                     setResult(RESULT_CANCELED, replyIntent);
-                } else {
+                }
+                else {
                     String word = mEditWordView.getText().toString();
                     replyIntent.putExtra(EXTRA_REPLY, word);
                     setResult(RESULT_OK, replyIntent);
